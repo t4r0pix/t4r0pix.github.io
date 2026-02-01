@@ -13,6 +13,7 @@ body{
     background:linear-gradient(180deg,#7a0000,#000);
     color:white;
     font-family:'VT323',monospace;
+    font-size: 60px;
     cursor:none;
 }
 
@@ -30,7 +31,7 @@ body{
 
 /* título */
 .title{
-    font-size:90px;
+    font-size:100px;
     text-align:center;
     margin:40px 0;
     color:black;
@@ -124,7 +125,9 @@ h2{
 
 <div class="container">
 
-<source src="paramore.mp3">
+<audio controls loop>
+  <source src="paramore.mp3" type="audio/mpeg">
+</audio>
 
 <!-- FOTO MÍA -->
 <div class="profile left">
@@ -228,4 +231,5 @@ document.addEventListener("mousemove",e=>{
 </script>
 
 </body>
+
 </html>
